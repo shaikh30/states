@@ -40,15 +40,12 @@ textarea {
 	 Author's custom styles
 	 ========================================================================== */
 body {
-	font-family: "Julius Sans One", Helvetica, Arial, sans-serif;
+	color: #404040;
+	font-family: "Martel Sans", Helvetica, Arial, sans-serif;
 }
 .outer-wrapper {
 	margin: auto;
 	max-width: 960px;
-}
-header {
-	border-bottom: solid 1px #aaa;
-	margin-bottom: 1em;
 }
 header select {
 	margin-top: 2.25em;
@@ -58,11 +55,49 @@ header select {
 h1 {
 	display: inline-block;
 	font-size: 3em;
-	font-weight: normal;
+	font-weight: 400;
 	margin: 0;
 	padding: 0.3em;
 }
-
+.main {
+	background: #eee;
+	border-radius: 4px;
+	padding: 20px;
+}
+.img-holder {
+	float: left;
+	margin-right: 50px;
+	width: 290px;
+}
+.img-holder > div {
+	background: #fff;
+	border-radius: 4px;
+	padding: 15px;
+}
+.img-holder p {
+	margin: 0;
+	text-align: center;
+}
+.info-holder {
+	display: inline-block;
+	float: left;
+}
+h2 {
+	font-weight: 400;
+	margin-top: 0;
+}
+.info-holder p {
+	margin: 0.5em 0;
+}
+.info-holder strong {
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: 900;
+	margin-right: 10px;
+	text-align: right;
+	text-transform: uppercase;
+	width: 110px;
+}
 
 
 
