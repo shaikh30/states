@@ -39,9 +39,28 @@ textarea {
 /* ==========================================================================
 	 Author's custom styles
 	 ========================================================================== */
-
+body {
+	font-family: "Julius Sans One", Helvetica, Arial, sans-serif;
+}
+.outer-wrapper {
+	margin: auto;
+	max-width: 960px;
+}
+header {
+	border-bottom: solid 1px #aaa;
+	margin-bottom: 1em;
+}
+header select {
+	margin-top: 2.25em;
+	margin-right: 0.9em;
+	float: right;
+}
 h1 {
-	text-align: center;
+	display: inline-block;
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0;
+	padding: 0.3em;
 }
 
 
